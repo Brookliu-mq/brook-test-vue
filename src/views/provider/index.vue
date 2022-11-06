@@ -10,7 +10,7 @@
       </div>
       <div>
         <span>Teacher</span>
-        <div class="into" @click="handleChooseProvider('teacher', teacher.id)" v-if="teacher.id">
+        <div class="into" @click="handleChooseProvider('teacher', teacher.id)" v-if="teacher">
           <teacher-card :viewer="false" :teacher="teacher"/>
         </div>
       </div>

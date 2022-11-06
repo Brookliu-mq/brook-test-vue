@@ -111,7 +111,7 @@ const routes = [
 
 
 const router = new VueRouter({
-  // mode: 'history', // require service support
+  mode: 'hash', // require service support
   scrollBehavior: () => ({ y: 0 }),
   routes
 })
